@@ -23,7 +23,7 @@
                 $mysqli->close();
                 
                 // redirect user after delete is successful
-                header("Location: success.html");
+                header("Location: view.php");
         }
         else
         // if the 'id' variable isn't set, redirect the user
